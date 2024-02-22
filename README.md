@@ -1,14 +1,11 @@
-# homebrew-tap
-Tap for homebrew, to install my small nugets of code
+# Fcrozetta Tap
 
-## Quickstart?
+## How do I install these formulae?
 
-```bash
-brew tap fcrozetta/tap
-```
+`brew install fcrozetta/tap/<formula>`
 
-then install packages
+Or `brew tap fcrozetta/tap` and then `brew install <formula>`.
 
-```bash
-brew install fcrozetta/tap/app-name
-```
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
