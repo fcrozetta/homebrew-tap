@@ -4,7 +4,7 @@
 class fcJson < Formula
   desc "Personal tools to make my life easier"
   homepage ""
-  url "https://github.com/fcrozetta/toolkit/releases/download/1.0.9/toolkit.zip"
+  url "https://github.com/fcrozetta/toolkit/releases/download/latest/toolkit.zip"
   sha256 "405bc333c00c650f9f2aec800a6e419759c16026acf3aa4737ee67199b1ff5f7"
   license "Apache-2.0"
 
