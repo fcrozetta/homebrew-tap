@@ -17,7 +17,7 @@ class Toolkit < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # bin.mkpath
     # system "unzip -u toolkit.zip", *std_configure_args
-    bin.install "fc-json"
+    bin.install "*"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
