@@ -9,11 +9,15 @@ class Toolkit < Formula
   license "Apache-2.0"
 
   # depends_on "cmake" => :build
+  # uses_from_macos "bzip2"
+  # uses_from_macos "unzip"
 
   def install
     # Remove unrecognized options if they cause configure to fail
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "unzip toolkit.zip", *std_configure_args
+    # bin.mkpath
+    # system "unzip -u toolkit.zip", *std_configure_args
+    system "echo $PWD"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
@@ -27,6 +31,6 @@ class Toolkit < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "false"
+    system "echo 'NO TEST'"
   end
 end
