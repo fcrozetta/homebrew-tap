@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Toolkit < Formula
+class fcJson < Formula
   desc "Personal tools to make my life easier"
   homepage ""
   url "https://github.com/fcrozetta/toolkit/releases/download/1.0.9/toolkit.zip"
@@ -17,7 +17,7 @@ class Toolkit < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # bin.mkpath
     # system "unzip -u toolkit.zip", *std_configure_args
-    bin.install "*"
+    bin.install "fc-json"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
