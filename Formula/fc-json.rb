@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class fcJson < Formula
+class FcJson < Formula
   desc "Personal tools to make my life easier"
   homepage ""
   url "https://github.com/fcrozetta/toolkit/releases/download/latest/toolkit.zip"
